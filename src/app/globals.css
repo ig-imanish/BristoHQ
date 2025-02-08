@@ -9,7 +9,13 @@ body {
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --foreground: 0 0% 3.9%; 
+
+    --custom-color-1: 201, 95%, 51%;
+    --custom-color-2: 0, 0%, 17%;
+    --custom-color-3: 0, 0%, 7%;
+    --custom-color-4: 0, 0%, 12%;
+
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
