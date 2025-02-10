@@ -506,7 +506,7 @@ textarea {
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
-    border-radius: 50px;
+    border-radius: 5px;
     overflow: hidden;
     margin-right: 1.5rem;
     /* background: #000000; */
