@@ -66,7 +66,7 @@ export default function Home() {
                 <span className="block text-indigo-600 xl:inline">Innovation Partner</span>
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                  We create cutting-edge websites and applications that transform your ideas into reality. From concept to launch, we're your complete digital solution provider.
+                  We create cutting-edge websites and applications that transform your ideas into reality. From concept to launch, we&apos;re your complete digital solution provider.
                 </p>
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                   <Link
