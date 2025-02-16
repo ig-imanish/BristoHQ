@@ -5,16 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>BristoHQ</title>
-    <meta name="description" content="Portfolio Template for Katalyst HQ" />
-
+    <meta name="description" content="BristoHQ creates innovative and easy-to-use tech solutions. We help developers and businesses with secure, fast, and reliable tools to boost productivity and simplify work."/>
     <link rel="stylesheet" href="css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/svg/logoSVG.svg">
   </head>
   <body>
     <header class="header">
@@ -279,6 +272,16 @@
                 name="message"
                 id="message"
               ></textarea>
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="attachment">Attachment</label>
+              <input type="file"
+              name="attachment"
+              id="attachment"
+              class="contact__form-file"
+              accept=".png, .jpg, .jpeg, .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx"
+              onchange="validateFileSize(this)"
+              max="10485760">
             </div>
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
