@@ -19,9 +19,10 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`w-auto fixed left-0 right-0 top-0 bg-white shadow-md flex items-center justify-between px-6 py-4 mx-4 mt-2 z-50 
-      ${mobileMenuOpen ? "rounded-t-lg rounded-b-none border-none" : "rounded-lg border-b border-gray-300"}`}
-    >
+    className={`w-auto fixed left-0 right-0 top-0 bg-white shadow-md flex items-center justify-between px-6 py-4 mx-4 mt-2 z-50 
+    md:rounded-lg md:border-b md:border-gray-300
+    ${mobileMenuOpen ? "rounded-t-lg rounded-b-none border-none md:rounded-lg md:border-b md:border-gray-300" : "rounded-lg border-b border-gray-300"}`}
+  >
       {/* Logo/Brand */}
       <Link href="/" className="flex items-center gap-2">
         <Image
